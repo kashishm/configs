@@ -9,7 +9,7 @@
 	cm = commit -m
 	ap = add -p
 	ad = add -u
-	l = log
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	sh = stash
 	sa = stash apply
 	sl = shortlog -s -n --all
